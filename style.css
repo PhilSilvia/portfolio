@@ -23,6 +23,27 @@ h2 {
   font-size: 30px;
 }
 
+/* Styles for the links */
+/* A link in its default state */
+a:link {
+  color: blue;
+}
+
+/* A link after it's been visited */
+a:visited {
+  color: purple;
+}
+
+/* A link while it's being hovered over */
+a:hover {
+  color: red;
+}
+
+/* A link as it's being clicked */
+a:active {
+  color: lightblue;
+}
+
 /* Simple center-aligned class, mostly for the picture at the top */
 .center-align {
   text-align: center;
