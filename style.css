@@ -1,0 +1,49 @@
+/* Style sheet for the portfolio webpage */
+
+/* Set the box sizing to the border box style */
+* {
+  box-sizing: border-box;
+}
+
+/* Sets a background color for the page as a whole */
+html {
+  background-color: #d1b892;
+}
+
+/* Style for the name at the top of the page */
+h1 {
+  font-family: Prismatic, "Fat Basic", Serif;
+  font-size: 48px;
+  font-style: italic;
+}
+
+/* Style for the subtitles throughout the page */
+h2 {
+  font-family: Roman, Georgia, Serif;
+  font-size: 30px;
+}
+
+/* Simple center-aligned class, mostly for the picture at the top */
+.center-align {
+  text-align: center;
+}
+
+/* Purple box style for the header and footer */
+.purple-box {
+  width: auto;
+  background-color: #582755;
+  color: #ffffff;
+  margin: 10px;
+  padding: 15px;
+  text-align: center;
+}
+
+/* Wrapper class for the interior articles */
+.wrapper {
+  width: auto;
+  margin: auto;
+  background-color: #ffd993;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10%;
+}
