@@ -44,6 +44,11 @@ a:active {
   color: lightblue;
 }
 
+/* Height definition for the footer */
+footer div {
+  height: 100px;
+}
+
 /* Simple center-aligned class, mostly for the picture at the top */
 .center-align {
   text-align: center;

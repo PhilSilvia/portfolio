@@ -1,32 +1,41 @@
 <!-- Main webpage for my personal portfolio website -->
 <!-- ~Phillip Silvia Jr. -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
+<!-- Defines the head of webpage -->
 <head>
   <meta charset="utf-8">
+  <!-- Sets the webpage to match the size of the device or window viewing it -->
   <meta name="viewport" content="width=device-width">
+  <!-- The title of the webpage -->
   <title>Phillip Silvia Portfolio</title>
-  <link href=https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css rel=”stylesheet” type=”text/css” />
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <!-- Normalize style link so it stays consistent across browsers -->
+  <link href=https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css rel=”stylesheet” type=”text/css” >
+  <!-- My own style link -->
+  <link href="style.css" rel="stylesheet" type="text/css" >
 </head>
 
+<!-- Body of the webpage, the meat and potatoes -->
 <body>
-  <!-- Name and Title -->
+  <!-- Top of the webpage -->
   <header>
+    <!-- My name and title -->
     <div class="purple-box">
       <h1>Phillip Silvia Jr.</h1>
       <h2>Software and Website Developer</h2>
     </div>
   </header>
+  <!-- The main section of the webpage -->
   <main>
     <div>
+      <!-- Start with a picture of myself -->
       <div class="center-align">
-        <img src="images/happy-face.jpg" alt="A happy, handsome man with brown hair in front of books" height=400px width=300px />
+        <img src="images/happy-face.jpg" alt="A happy, handsome man with brown hair in front of books" height="400px">
       </div>
+      <!-- Introduction: Who and where I am -->
       <article>
         <div class="wrapper">
-        <!-- Intro: Who and Where -->
           <h2>Who am I?</h2>
           <p>I am a software and website developer living in rainy Marysville, WA.</p>
           <p>Geeked from birth, I am very passionate about creating elegant and entertaining experiences for people to enjoy. That includes games, roleplaying settings and fun adventures for your computer or your tabletop.</p>
@@ -34,12 +43,13 @@
         </div>
       </article>
       <hr>
+      <!-- About me: History, experience, and what I have to offer -->
       <article>
         <div class="wrapper">
-        <!-- About Me: Describes my web design mantra, other details -->
           <h2>Okay, but what have I done?</h2>
           <p>I graduated from the University of New Mexico in 2009 with a Bachelor of Science in Computer Science.</p>
           <p>Since then I have pursued a variety of different roles over the next fifteen years.</p>
+          <!-- List of experiences -->
           <ol>
             <li>I worked for a couple years as a systems analyst at a government contracting company.</li>
             <li>I was the owner and operator of a game store that sold tabletop card games, board games, and miniature games for about five years.</li>
@@ -51,24 +61,28 @@
         </div>
       </article>
       <hr>
+      <!-- Contact information: My LinkedIn, Github profiles -->
       <article>
         <div class="wrapper">
-          <!-- Contact: LinkedIn, github, etc -->
           <h3>Wanna talk to me? Message or follow me here</h3>
+          <!-- List of profiles -->
           <ul>
+            <!-- Link to my Github profile -->
             <li><a href="https://github.com/PhilSilvia">Github</a></li>
+            <!-- Link to my LinkedIn profile -->
             <li><a href="https://www.linkedin.com/in/phillip-silvia-55a4b62a7/">LinkedIn</a></li>
           </ul>
         </div>
       </article>
     </div>
   </main>
-  <!-- Footer with copyright -->
+  <!-- Footer box with copyright -->
   <footer>
     <div class="purple-box">
-      <h4>&copy Phillip Silvia Jr.</h4>
+      <h4>&copy; Phillip Silvia Jr.</h4>
     </div>
   </footer>
+  <!-- Javascript link, though there is no Javascript on the page at this time -->
   <script src="script.js"></script>
 </body>
 
